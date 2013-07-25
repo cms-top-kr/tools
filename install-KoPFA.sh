@@ -47,7 +47,7 @@ fi
 
 pushd KoPFA
 
-if [ ! -d .git]; then
+if [ ! -d .git ]; then
   echo "!!! FATAL !!! Cannot find .git directory"
   echo "!!! Your KoPFA directory is not set up for git"
   exit 2
